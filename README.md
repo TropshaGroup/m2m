@@ -38,6 +38,10 @@ The structure below provides a root m2m package with modules for:
 
 ## To Run
 
+### Setup
+Clone the repo.
+Install requirements from the requirements.txt file.
+
 ### The application
 This will create trivial interfaces and algorithms, wire them together, and output an evaluation.
 ```
