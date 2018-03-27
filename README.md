@@ -35,3 +35,16 @@ The structure below provides a root m2m package with modules for:
     └── similarity
         └── pmc.py
 ```
+
+## To Run
+
+### The application
+This will create trivial interfaces and algorithms, wire them together, and output an evaluation.
+```
+[scox@mac~/dev/m2m]$ PYTHONPATH=$PWD python m2m/app.py
+```
+### The API
+This will start a web API.
+```
+[~/dev/m2m]$ PYTHONPATH=$PWD python m2m/repurpose/api/server.py
+```
