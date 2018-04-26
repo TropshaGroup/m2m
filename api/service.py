@@ -63,8 +63,8 @@ def get_core ():
       core = Core ()
    return core
 
-@app.route('/sne/<arg1>/<arg2>/', methods=['GET'])
-def sne (arg1="v1", arg2="v2"):
+@app.route('/tsne/<arg1>/<arg2>/', methods=['GET'])
+def tsne (arg1="v1", arg2="v2"):
    """ Get service metadata 
    ---
    parameters:
