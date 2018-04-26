@@ -2,6 +2,8 @@
 
 Artificially intelligent drug repurposing over federated knowledge sources.
 
+This is a first checkin to start the conversation about the best structure for this system.
+
 ## Structure
 
 The structure below provides a root m2m package with modules for:
@@ -52,3 +54,7 @@ This will start a web API.
 ```
 [~/dev/m2m]$ PYTHONPATH=$PWD python m2m/repurpose/api/server.py
 ```
+
+At [http://localhost:5000/apidocs](http://localhost:5000/apidocs), you should get this:
+
+![image](https://github.com/TropshaGroup/m2m/blob/master/img/smartapi.png)
