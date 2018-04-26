@@ -17,6 +17,8 @@ The structure below provides a root m2m package with modules for:
 ```
 
 ├── README.md
+├── api
+│   └── service.py
 └── m2m
     ├── app.py
     ├── evaluation.py
@@ -49,6 +51,12 @@ This will create trivial interfaces and algorithms, wire them together, and outp
 ```
 [scox@mac~/dev/m2m]$ PYTHONPATH=$PWD python m2m/app.py
 ```
+### The Similarity API
+
+```
+[~/dev/m2m]$ PYTHONPATH=$PWD python m2m/api/service.py
+```
+
 ### The API
 This will start a web API.
 ```
