@@ -57,6 +57,8 @@ This will create trivial interfaces and algorithms, wire them together, and outp
 [~/dev/m2m]$ PYTHONPATH=$PWD python m2m/api/service.py
 ```
 
+The service will be available at http://localhost:5000/apidocs.
+
 ### The API
 This will start a web API.
 ```
