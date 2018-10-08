@@ -43,6 +43,7 @@ The structure below provides a root m2m package with modules for:
 ## To Run
 
 ### Setup
+Install Python 3.6.x
 Clone the repo.
 Install requirements from the requirements.txt file.
 
