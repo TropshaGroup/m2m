@@ -14,4 +14,3 @@ class TrivialKnowledgeMap(KnowledgeMap):
             hypothesis.substance,
             hypothesis.condition
         ]
-    
